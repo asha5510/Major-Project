@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/staffPage"
+        android:layout_width="402dp"
+        android:layout_height="49dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="26dp"
+        android:gravity="center"
+        android:hint="Teacher_login"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/stEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/staffPage"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Please Enter userName"
+        android:inputType="text"
+        android:padding="19dp" />
+
+    <EditText
+        android:id="@+id/stPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stEdit"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Please Enter password"
+        android:inputType="text"
+        android:padding="19dp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stPass"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purple_500"
+        android:padding="18dp"
+        android:text="Submit" />
+
+
+
+</RelativeLayout>

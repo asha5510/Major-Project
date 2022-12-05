@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hyperLink"> please visit <a href="https://console.firebase.google.com/u/0/project/my-application-bb2b2/notification/experiment/create">notice.com
+        </a>
+    </string>
+    <string name="teacher"> Register_Teacher_here??</string>
+</resources>
